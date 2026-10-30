@@ -1,0 +1,16 @@
+### Saludo correcto
+GET http://localhost:8080/api/v1/saludo
+Accept: application/json
+
+### Ruta inexistente
+
+GET http://localhost:8080/api/v1/no-existe
+
+### POST A UN GET
+POST http://localhost:8080/api/v1/saludo
+
+### Saludo sin parámetro
+GET http://localhost:8080/api/v1/saludo
+
+### Saludo con nombre
+GET http://localhost:8080/api/v1/saludo?nombre=Ada
